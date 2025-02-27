@@ -5,3 +5,16 @@
   --color-prim : #FFCAFD;
   --color-scnd : #9F97CA;
 }
+
+.scrollbar-hide::-webkit-scrollbar {
+  display : none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style : none;
+  scrollbar-width : none;
+}
+
+body {
+  font-family: century-gothic, sans-serif;
+}
